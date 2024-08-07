@@ -4,13 +4,14 @@ import { HoverBorderGradient } from "./ui/hover-border-gradiant";
 import { DownloadCV } from "@/function/DownloadCV";
 import Image from "next/image";
 import NavBar from "./NavTabs";
+import Link from "next/link";
 
 export default function Navbar() {
   let [activeTab, setActiveTab] = React.useState(-1);
   return (
     <div className="w-full py-8 flex justify-between items-center">
-      <div className="hidden md:flex items-center space-x-12 bg-slate-800 px-4 py-2 pe-6 rounded-2xl">
-        <div className="flex items-center gap-2">
+      <div className="hidden md:flex items-center space-x-6 bg-slate-800 px-4 py-2 pe-6 rounded-2xl">
+        <Link href="/" className="flex items-center gap-2">
           <Image
             src="/image.png"
             width={50}
@@ -21,7 +22,7 @@ export default function Navbar() {
             className="size-8 aspect-square rounded-full"
           />
           <span className="text-sm font-bold uppercase">Shreyansh</span>
-        </div>
+        </Link>
         <div>
           <NavBar
             data={[

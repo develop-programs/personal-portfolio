@@ -66,7 +66,7 @@ const Tab = ({
           opacity: 1,
         });
       }}
-      className="relative z-10 block cursor-pointer p-2 text-xs uppercase text-white mix-blend-screen"
+      className="relative z-10 block cursor-pointer p-1 lg:p-2 text-xs uppercase text-white mix-blend-screen"
     >
       {children}
     </Link>

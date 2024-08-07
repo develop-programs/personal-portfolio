@@ -15,7 +15,7 @@ export default function AnimatedTabs() {
   return (
     <div className="pt-16 pb-24">
       <div className="flex gap-4 h-[20vh]">
-        <div className="ms-32 w-0.5 h-full bg-slate-900"></div>
+        <div className="ms-12 lg:ms-32 w-0.5 h-full bg-slate-900"></div>
         <Tabs defaultValue="1" className="flex gap-12 h-full">
           <TabsList
             className="grid gap-3"
