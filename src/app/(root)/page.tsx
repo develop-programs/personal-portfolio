@@ -11,7 +11,7 @@ export default function page() {
   return (
     <div>
       <div className="w-full lg:max-w-[44rem] grid gap-12 pt-24 pb-48">
-        <span className="text-2xl lg:text-4xl font-bold tracking-wider leading-tight">
+        <span className="text-2xl lg:text-4xl font-bold tracking-wider leading-tight antialiased">
           I&apos;m enthusiastic developer commited to create{" "}
           <span className="bg-gradient-to-l from-violet-700 via-indigo-500 to-blue-500 bg-clip-text text-transparent">
             awesome stuff.

@@ -21,9 +21,9 @@ type LinkPreviewProps = {
   quality?: number;
   layout?: string;
 } & (
-  | { isStatic: true; imageSrc: string }
-  | { isStatic?: false; imageSrc?: never }
-);
+    | { isStatic: true; imageSrc: string }
+    | { isStatic?: false; imageSrc?: never }
+  );
 
 export const LinkPreview = ({
   children,
@@ -97,7 +97,7 @@ export const LinkPreview = ({
       >
         <HoverCardPrimitive.Trigger
           onMouseMove={handleMouseMove}
-          className={cn("text-black dark:text-white", className)}
+          className={cn("text-black dark:text-white font-semibold", className)}
           href={url}
         >
           {children}
