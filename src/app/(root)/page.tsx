@@ -17,16 +17,16 @@ export default function page() {
             awesome stuff.
           </span>
         </span>
-        <span className="text-sm md:text-base text-muted-foreground tracking-wide">
-          Meet Manu Arora, the self-proclaimed code wizard who can turn caffeine
+        <span className="text-sm md:text-base text-muted-foreground tracking-widest">
+          Meet <strong className="text-white text-lg font-bold">Shreyansh Awadhiya</strong>, the self-proclaimed code wizard who can covert ideas
           into beautiful websites. His passion for building clean and functional
           designs is only rivaled by his passion for finding the perfect GIF to
           express his excitement.
         </span>
-        <div className="text-base font-sans text-muted-foreground tracking-wider">
-          My favorite tools are{" "}
-          <LinkPreview url="https://reactjs.org/">React</LinkPreview>,{" "}
-          <LinkPreview url="https://nextjs.org/">Next.js</LinkPreview>, and{" "}
+        <div className="text-base font-sans text-muted-foreground tracking-wider space-x-2">
+          My favorite Techs are
+          <LinkPreview url="https://reactjs.org/">React js</LinkPreview>,
+          <LinkPreview url="https://nextjs.org/">Next.js</LinkPreview>, with
           <LinkPreview url="https://www.typescriptlang.org/">
             TypeScript
           </LinkPreview>
@@ -50,7 +50,7 @@ export default function page() {
       </div>
       <div>
         <span className="text-2xl font-semibold font-sans">
-          My latest blog posts.
+          About My Favorite Tech.
         </span>
         <Suspense fallback={<div>Loading...</div>}>
           <HoverEffect

@@ -11,4 +11,15 @@ export const Experiences = [
     ],
     duration: "Feb 2023 - Aug 2023",
   },
+  {
+    trigger: "Devllux",
+    position: "Fullstack Developer",
+    type: "Internship",
+    location: "remote",
+    responsibilities: [
+      "To develop and maintain backend and frontend",
+      "To manage new couleges"
+    ],
+    duration: "JUL 2024 - DEC 2024"
+  }
 ];
